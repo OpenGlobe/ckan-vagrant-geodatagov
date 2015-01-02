@@ -13,7 +13,8 @@ This attempts to use the ansible script from the (https://github.com/GSA/ckanext
 4. Once PIP is installed, follow with [ansible](http://docs.ansible.com/intro_installation.html), or `$ sudo pip install ansible`
 5. Clone this repository, e.g. `$ git clone --recursive clone git://github.com/ckan-vagrant-geodatagov.git`
 6. Move to the directory with your terminal application `$ cd ckan-vagrant-geodatagov/`
-7. Make sure the submodule is there, if you didn't use recursive, then: git submodule init and git submodule update
+7. Make sure the submodule is there, if you didn't use recursive, then do the following: 
+	'$ git submodule init' - then, '$ git submodule update'
 8. Create the instance `vagrant up`
 9. Go get some coffee (it takes a few minutes)
 10. Add to following line to `/etc/hosts` on your local machine:  `192.168.19.97 ckan.lo`
