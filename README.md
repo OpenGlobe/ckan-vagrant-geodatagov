@@ -15,7 +15,7 @@ This attempts to use the ansible script from the (https://github.com/GSA/ckanext
 6. Move to the directory with your terminal application `$ cd ckan-vagrant-geodatagov/`
 7. Make sure the submodule is there, if you didn't use recursive, then do the following: 
 	`$ git submodule init` - then, `$ git submodule update`
-8. Create the instance with VirtualBox with this command: `$ vagrant up` - if it cannot find VirtualBox from Step 1 or if it isn't configured correctly, it will attempt to do so here.
+8. Create the instance with VirtualBox with this command: `$ vagrant up` - if it cannot find VirtualBox from Step 1 or if it isn't configured correctly, it will attempt to do so here.  If you encounter errors, you can try using sudo: `$ sudo vagrant up`
 9. Go get some coffee (it takes a few minutes)
 10. Add to following line to `/etc/hosts` on your local machine:  `192.168.19.97 ckan.lo`
 11. Open [http://ckan.lo](http://ckan.lo) in your browser.
